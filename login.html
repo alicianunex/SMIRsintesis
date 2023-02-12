@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Google Sign In</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cantarell:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <script src="dist/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-mr-4">
+      <a class="navbar-brand" href="#"><h4></h4></a>
+      <button
+        id="toggler"
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="screen">
+        <div class="screen__content">
+          <div class="notifi_welcome-js is-hidden not-div">
+            <h2 class="notifi_welcome">Welcome to your account!</h2>
+          </div>
+
+          <form class="login">
+            <div class="login__field">
+              <i class="login__icon fas fa-user"></i>
+              <input
+                type="text"
+                class="login__input login__input-js"
+                placeholder="User name / Email"
+              />
+            </div>
+            <div class="login__field">
+              <i class="login__icon fas fa-lock"></i>
+              <input
+                type="password"
+                class="login__input login__input-pass-js"
+                placeholder="Password"
+              />
+            </div>
+            <div class="div-btn">
+              <button class="button login__submit btn-log-in-js">
+                <span class="button__text">Log in</span>
+                <i class="button__icon fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="screen__background">
+          <span
+            class="screen__background__shape screen__background__shape2"
+          ></span>
+          <span
+            class="screen__background__shape screen__background__shape1"
+          ></span>
+        </div>
+      </div>
+    </div>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
