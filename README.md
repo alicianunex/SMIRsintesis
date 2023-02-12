@@ -23,3 +23,4 @@
 - Home
 - Products
 - Login
+- Cart / Checkout
